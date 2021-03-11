@@ -1,6 +1,6 @@
 {
   "name": "react-checkbox-tree",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A simple and elegant checkbox tree for React.",
   "author": "Jake Zatecky",
   "license": "MIT",
@@ -23,8 +23,7 @@
     "examples": "gulp examples",
     "gh-deploy": "gulp build-gh-pages && bash ./gh-deploy.sh",
     "prepublishOnly": "gulp build",
-    "test": "gulp test-script",
-    "install": "npm run build"
+    "test": "gulp test-script"
   },
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0"
